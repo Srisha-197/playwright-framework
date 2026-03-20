@@ -1,0 +1,8 @@
+pytest
+playwright
+allure-pytest
+requests
+pandas
+appium-python-client
+selenium
+jira
