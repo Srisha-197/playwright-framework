@@ -1,4 +1,4 @@
-run: pytest test_framework
+name: Run Pytest Framework
 
 on:
   push:
@@ -17,8 +17,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install pytest
+        run: pip install pytest
 
       - name: Run tests
         run: pytest
